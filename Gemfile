@@ -2,5 +2,5 @@
 source "https://rubygems.org"
 
 # gem "rails"
-gem 'pry-byebug'
+gem 'pry'
 gem 'require_all'

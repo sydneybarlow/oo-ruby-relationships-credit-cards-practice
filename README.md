@@ -60,3 +60,17 @@ Implement all of the methods described below
   + returns the average of limit for all credit cards associated with the Bank
 + `Bank.highest_limit`
   + returns the instance of `Customer` that has the highest limit across all banks
+
+
+### Which iteration methods return an Array
+ - .map()
+ - .select() block should be a condition
+ - .find_all() block should be a condition
+
+
+### Which iteration methods return a single element
+ - .find() block should be a condition
+
+
+### Which iteration methods return nothing
+ - .each()
