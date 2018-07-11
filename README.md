@@ -46,8 +46,8 @@ Implement all of the methods described below
   + returns the bank associated with this `CreditCard`
 + `CreditCard#limit`
   + returns the credit limit for this `CreditCard`
-+ `CreditCard.credit_cards(limit)`
-  + this method should return the first `CreditCard` instance from the CreditCard.all array where the limit of that `CreditCard` matches the limit passed into this method 
++ `CreditCard.find_limit(limit)`
+  + this method should return the first `CreditCard` instance from the CreditCard.all array where the limit of that `CreditCard` matches the limit passed into this method
 
 ### `Bank`
 + `Bank.new`
