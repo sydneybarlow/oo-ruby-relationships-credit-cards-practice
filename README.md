@@ -32,7 +32,7 @@ Implement all of the methods described below
 + `Customer#credit_cards`
   + this method should return an array of `CreditCard` instances associated with this instance of `Customer`.
 + `Customer#banks`
-  + this method should return an array of `Bank`  instances associated with this instance of `Customer`.
+  + this method should return an array of `Bank` instances associated with this instance of `Customer`.
 
 ### `CreditCard`
 
@@ -46,6 +46,8 @@ Implement all of the methods described below
   + returns the bank associated with this `CreditCard`
 + `CreditCard#limit`
   + returns the credit limit for this `CreditCard`
++ `CreditCard.credit_cards(limit)`
+  + this method should return the first `CreditCard` instance from the CreditCard.all array where the limit of that `CreditCard` matches the limit passed into this method 
 
 ### `Bank`
 + `Bank.new`
@@ -56,5 +58,5 @@ Implement all of the methods described below
   + this method create a new instance of `CreditCard` associated with this instance of `Bank` and the passed in instance of `Customer` and limit
 + `Bank#average_limit`
   + returns the average of limit for all credit cards associated with the Bank
-+ `Bank.lowest_limit`
-  + returns the instance of `Customer` that has the lowest limit across all banks
++ `Bank.highest_limit`
+  + returns the instance of `Customer` that has the highest limit across all banks
