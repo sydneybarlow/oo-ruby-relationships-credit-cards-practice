@@ -12,4 +12,10 @@ class CreditCard
   def self.all
     @@all
   end
+
+  def self.find_limit(limit)
+    self.all.find{ |credit_card|
+      credit_card.limit == limit
+    }
+  end
 end
